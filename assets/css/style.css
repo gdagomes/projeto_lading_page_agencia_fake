@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+body{
+    margin:0;
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.logo{  
+    margin-left: 10%;
+    text-align: left;
+    flex: 10%;
+}
+
+.logo h1{
+    font-family: 'Lobster', cursive;
+    color: #180F4a;
+    font-size: 34px;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+   
+}
+
+.menu a{
+    color:#180F4a;
+    padding: 20px 16px;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: #ff2978;
+    border-top: 4px solid #180F4a;
+}
+
+.menu :nth-last-child(1){
+    margin-left: 5%;
+    margin-right: 10%;
+    background-color: #180F4a;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 10px 25px;
+}
+
+
+.menu :nth-last-child(1):hover{
+    border: none;
+    background-color: #ff2978;
+    color: #180F4a;
+}
+
+.header{
+    display: flex;
+    flex:row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headline h2{
+    font-size: 80px;
+}
+
+.headline h2, .headline-p1{
+    color: #180F4a;
+    letter-spacing: 7px;
+    font-weight: 900;
+}
+
+.headline-p1{
+    font-size: 24px;
+}
+
+.headline-p2{
+    margin-top: 10px;
+    line-height: 1.5rem;
+    text-align: justify;
+    color: gray;
+}
+
+.btn{
+    border: none;
+    margin-top: 10px;
+}
+
+.btn a{
+    display: inline-block;
+    background-color:#ff2978;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.btn a:hover{
+    background-color:#180F4a;
+}
+
+.img-headline{
+    flex: 40%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.img-headline img{
+    max-width: 90%;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+section h2{
+    margin: 0;
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180F4a;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1px;
+    border: #ff2978 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cardtext-oculto{
+    display: none;
+}
+
+.card:hover{
+    color:azure;
+    background-color:#ff2978;
+    padding: 40px;
+}
+
+.card:hover .cardtext{
+    display: none;
+}
+
+.card:hover .cardtext-oculto{
+    display: block;
+}
+
+.card:hover img{
+    display: none;
+}
+
+footer{
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(180deg, #180F4a, #090422, black);
+    border-top: #ff2978 5px solid;
+    text-align: center;
+    color: azure;
+}
+
+.rodape{
+    padding: 100px;
+}
+
+.textrodape{
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 90px;
+}

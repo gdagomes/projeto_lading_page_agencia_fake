@@ -1,0 +1,47 @@
+@media  screen and (max-width: 1005px) {
+
+    .nav-bar{
+        position:relative
+    }
+
+
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .header{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headline{
+        flex:100%;
+        margin: 5%;
+        text-align: center;
+    }
+    
+    .headline-p2{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .img-headline{
+        flex: 100%;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .whats{
+        display: none;
+    }
+}
